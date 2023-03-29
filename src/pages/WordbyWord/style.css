@@ -1,0 +1,39 @@
+.ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
+.ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
+.ant-table-thead>tr:hover:not(.ant-table-expanded-row)>td,
+.ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+    background: unset !important;
+
+}
+
+.table td,
+.table th {
+    padding: 0.2rem;
+    vertical-align: middle;
+}
+
+.inner-word {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.table .word-display {
+    border: 1px solid #252525;
+    padding: 5px !important;
+    margin-left: 0px;
+    white-space: nowrap;
+}
+
+.table td {
+    padding: 0px;
+    margin: 0px;
+}
+
+.table .table-heading {
+    font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+    display: visible;
+}
